@@ -2,8 +2,8 @@ import "./App.css";
 import Lister from "./components/Lister";
 import Questions from "./components/Questions";
 import Navbar from "./components/Navbar";
-import { BrowserRouter as Router, Link, Routes, Route } from "react-router-dom";
-import { useState, useEffect } from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { useState} from "react";
 import React from "react";
 import Completer from "./components/Completer";
 function App() {
@@ -23,7 +23,7 @@ function App() {
   const [Checked10, setChecked10] = useState([]);
   const [Checked11, setChecked11] = useState([]);
   const [progress, setprogress] = useState(0);
-  const [Checked13, setChecked13] = useState([]);
+  // const [Checked13, setChecked13] = useState([]);
 
 // const [qstate, setqstate] = useState(localStorage.getItem("qstate"));
 
